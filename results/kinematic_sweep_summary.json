@@ -1,0 +1,98 @@
+{
+    "0.0": {
+        "Reactive_Dijkstra": {
+            "mean_reward": 59.82275784559657,
+            "std_reward": 21.323825529436046,
+            "success_rate": 1.0,
+            "mean_steps": 4.58
+        },
+        "Predictive_Dijkstra": {
+            "mean_reward": 60.06832162912272,
+            "std_reward": 20.818309677494952,
+            "success_rate": 1.0,
+            "mean_steps": 4.55
+        },
+        "Oracle_DP": {
+            "mean_reward": 60.844249887812104,
+            "std_reward": 20.203257621930465,
+            "success_rate": 1.0,
+            "mean_steps": 4.57
+        },
+        "DQN_H1": {
+            "mean_reward": -412.5221550011814,
+            "std_reward": 154.3181934515409,
+            "success_rate": 0.13,
+            "mean_steps": 45.23
+        },
+        "DQN_H3": {
+            "mean_reward": -476.12705576405676,
+            "std_reward": 140.90377009127127,
+            "success_rate": 0.05,
+            "mean_steps": 47.9
+        }
+    },
+    "0.5": {
+        "Reactive_Dijkstra": {
+            "mean_reward": 60.32869897014486,
+            "std_reward": 21.15706272785906,
+            "success_rate": 1.0,
+            "mean_steps": 4.55
+        },
+        "Predictive_Dijkstra": {
+            "mean_reward": 60.34979413426825,
+            "std_reward": 21.104603898454922,
+            "success_rate": 1.0,
+            "mean_steps": 4.56
+        },
+        "Oracle_DP": {
+            "mean_reward": 60.74700056911087,
+            "std_reward": 20.82083448744394,
+            "success_rate": 1.0,
+            "mean_steps": 4.5
+        },
+        "DQN_H1": {
+            "mean_reward": -418.75952122147777,
+            "std_reward": 95.37267108939355,
+            "success_rate": 0.03,
+            "mean_steps": 48.61
+        },
+        "DQN_H3": {
+            "mean_reward": -523.4769828233924,
+            "std_reward": 213.72039726626952,
+            "success_rate": 0.13,
+            "mean_steps": 45.08
+        }
+    },
+    "0.9": {
+        "Reactive_Dijkstra": {
+            "mean_reward": 62.673448438968016,
+            "std_reward": 20.701693325716906,
+            "success_rate": 1.0,
+            "mean_steps": 4.54
+        },
+        "Predictive_Dijkstra": {
+            "mean_reward": 62.682571573075464,
+            "std_reward": 20.679695424921068,
+            "success_rate": 1.0,
+            "mean_steps": 4.55
+        },
+        "Oracle_DP": {
+            "mean_reward": 63.58037576090324,
+            "std_reward": 18.880113031803678,
+            "success_rate": 1.0,
+            "mean_steps": 4.5
+        },
+        "DQN_H1": {
+            "mean_reward": -429.01435911748274,
+            "std_reward": 248.31195396801382,
+            "success_rate": 0.35,
+            "mean_steps": 39.09
+        },
+        "DQN_H3": {
+            "mean_reward": -408.9249297784991,
+            "std_reward": 262.057136267279,
+            "success_rate": 0.36,
+            "mean_steps": 37.8
+        }
+    }
+}
