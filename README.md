@@ -40,15 +40,6 @@ For the studied problem class—known graph topology, observable congestion stat
 - **Topology**: The graph is a uniform grid, lacking the complexities of real-world intersections and capacities.
 - **Scalability**: The flattened $O(|E|)$ observation space for the Double DQN architecture scales poorly to massive city-level networks without the adoption of Graph Neural Networks (GNNs).
 
-## Reproducibility
-The full experimental pipeline, including environment validation, inference benchmarking, training, evaluation, and statistical plotting, can be reproduced automatically:
-
-```bash
-pip install -r requirements.txt
-python experiments/run_final_experiment.py
-```
-Results and summary files are saved to the `results/` directory, while figures are output to `figures/`.
-
 ## Repository Structure
 - `src/`: Core implementation containing agents, classical algorithms, environment dynamics, and evaluation tools.
 - `experiments/`: Scripts for executing sweeps, testing configurations, and running the final experimental pipeline.
@@ -57,5 +48,3 @@ Results and summary files are saved to the `results/` directory, while figures a
 - `results/`: Empirical JSON outputs from evaluation runs.
 - `figures/`: Data visualizations.
 
-## Citation
-A formal citation will be added upon manuscript/publication availability.
