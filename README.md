@@ -57,8 +57,5 @@ Results and summary files are saved to the `results/` directory, while figures a
 - `results/`: Empirical JSON outputs from evaluation runs.
 - `figures/`: Data visualizations.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Citation
 A formal citation will be added upon manuscript/publication availability.
